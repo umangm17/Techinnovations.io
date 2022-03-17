@@ -1,0 +1,48 @@
+body{
+    background: url(img/img1.jpg) no-repeat  center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+}
+html{
+    width: 100%;
+    height: 100%;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+h1{
+    font-size: 3rem;
+    color:#fcf7ff;
+}
+.buffer{
+    height: 10rem;
+}
+.btn{
+    font-weight: 700px;
+    border-radius: 200px;
+    text-transform: uppercase;
+}
+.btn-danger{
+    background-color: #e394d0;
+    border-color:#4caf50 ;
+}
+
+.btn-xl{
+    padding: 1rem 2rem;
+    
+    
+}
+.btn-danger:hover{
+    border-width: 4px;
+}
+hr{
+    border-color:whitesmoke ;
+    border-width: 5px;
+}
